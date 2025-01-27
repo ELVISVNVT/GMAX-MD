@@ -15,7 +15,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "false",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "VNVT-AI",
+BOT_NAME: process.env.BOT_NAME || "GMAX-MD",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "GMAX-MD",
 // type sticker pack name 
@@ -25,7 +25,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "22891983438",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "255753853473",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "VNVT",
 // add bot owner name
