@@ -31,7 +31,7 @@ OWNER_NAME: process.env.OWNER_NAME || "VNVT",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ɢᴍᴀx*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "",
+ALIVE_IMG: process.env.ALIVE_IMG || "true",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -39,7 +39,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
