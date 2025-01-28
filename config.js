@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "GMAX-MD~PB4WkIha#hi8yCnfBAnRrkyRFsEbxVbZVvhFxW5qnSreVBt1lx9Y",
+SESSION_ID: process.env.SESSION_ID || "GMAX-MD~LdYQiDZR#fo8Jo7ZJ07zmu6vEdR_1DC8VWRPVuYQKEPlMU_jnvtE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -31,7 +31,7 @@ OWNER_NAME: process.env.OWNER_NAME || "GMAX-MD",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ɢᴍᴀx*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "true",
+ALIVE_IMG: process.env.ALIVE_IMG || "false",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -39,7 +39,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "inbox",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
