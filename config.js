@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "GMAX-MD~bRhjTTwI#zFlcqlDbtPyUJpYFSAFaXcZvTglTQmqrbTo4AOpq-wA",
+SESSION_ID: process.env.SESSION_ID || "GMAX-MD~XU4DyYxa#5T4ecemGtoF6tI_2hTYmAg9oV-BS3g5R84RcEufsF4g",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -39,7 +39,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "inbox",
+MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
@@ -55,7 +55,7 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
-DEV: process.env.DEV || "22891983438",
+DEV: process.env.DEV || "22898070887",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
